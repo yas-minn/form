@@ -1,0 +1,73 @@
+@media only screen and (max-width: 600px){
+    #Content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 768px){
+    #Content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+    }
+}
+#Content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+#Btn{
+    border: none;
+    border-radius: 2px;
+    background-color: green;
+    color: azure;
+    width: 90%;
+    height: 30px;
+}
+#Name{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+#Options{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 5px;
+   
+}
+.Input{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 5px;
+    border-color: grey;
+    background-color: transparent;
+}
+.box1{
+    width: 170px;
+    height: 25px;  
+}
+.box2{
+    width: 350px;
+    height: 25px; 
+}
+.box3{
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 170px;
+    height:25px ; 
+}
+.message{
+    width:350px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: grey;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
